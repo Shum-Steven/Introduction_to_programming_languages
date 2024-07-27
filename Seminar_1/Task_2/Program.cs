@@ -14,10 +14,12 @@ int number = Convert.ToInt32(Console.ReadLine());
 //     i++; // i = i + 1 // i +=1
 // }
 
-// for(int i = -number; i <= number; i++)
-// {
-//     System.Console.Write(i + " ");
-// }
+// System.Console.Write(i);
+
+for(int i = -number; i <= number; i++)
+{
+    System.Console.Write(i + " ");
+}
 
 // int i = 0;
 // while(true)
@@ -26,7 +28,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 //     i++;
 // }
 
-for(int i = 0; ; i++)
-{
-    System.Console.Write(i + " ");
-}
+// for(int i = 0; ; i++)
+// {
+//     System.Console.Write(i + " ");
+// }
