@@ -1,0 +1,8 @@
+Здесь указаны мои реквизиты и ссылка на удаленный репозиторий.
+
+Шумилин Степан Тимурович 17 Апреля 1991 года.
+
+https://github.com/Shum-Steven
+
+Fork на курс Знакомство с Языками Программирования:
+https://github.com/Shum-Steven/Introduction_to_programming_languages.git
