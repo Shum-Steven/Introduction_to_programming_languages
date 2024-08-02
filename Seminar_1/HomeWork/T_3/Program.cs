@@ -1,8 +1,8 @@
 ﻿// Внутри класса Answer напишите метод CheckIfEven, который на вход 
 // принимает число number и выводит, является ли число чётным (делится ли оно на два без остатка).
 
-Console.WriteLine("введите Перовое число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите число: ");
+double number = Convert.ToDouble(Console.ReadLine());
 
 // int number = 6;
 

@@ -2,7 +2,7 @@
 // который на вход принимает два числа и выводит, какое число большее, а какое меньшее:
 
 Console.WriteLine("Введите перовое число: ");
-int firstNumber = Convert.ToInt16(Console.ReadLine());
+byte firstNumber = Convert.ToByte(Console.ReadLine());
 
 Console.WriteLine("Введите второе число: ");
 int secondNumber = int.Parse(Console.ReadLine());
@@ -37,6 +37,7 @@ else
    }
    else
    {
+     if (firstNumber == secondNumber)
         // int value = Convert.ToInt32(firstNumber == secondNumber) * firstNumber;
         // Console.WriteLine("Числа Равны " + value);
         Console.WriteLine("Числа Равны ");
