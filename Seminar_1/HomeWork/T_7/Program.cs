@@ -8,6 +8,10 @@ int X = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("введите значение Y :");
 int Y = Convert.ToInt32(Console.ReadLine());
 
+if(X == 0 || Y == 0)
+{
+    Console.WriteLine(" точка находится на оси координат ");
+}
 if(X > 0 && Y > 0)
 {
     Console.WriteLine(" I номер координатной четверти ");
