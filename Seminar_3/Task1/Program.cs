@@ -1,28 +1,40 @@
-﻿// тип_возвращаемого_значения   _имя_функции_(принимаемые_аргументы)
+﻿// Задайте массив из N случайных целых чисел (N вводится с клавиатуры).
+// Найдите количество чисел, которые оканчиваются на 1 и делятся нацело на 7.
+// Пример:
+// [1 5 11 21 81 4 0 91 2 3]   => 2
 
 void Main()
 {
-    int a = 7;
-    int b = 8;
-    int c = 13;
-
-    int d = 10;
-    int e = 5;
-    int f = 3;
-
-    int result = Function(a, b, c);
-    System.Console.WriteLine(result);
-
-    int result2 = Function(d, e, f);
-    System.Console.WriteLine(result2);
+    int sizeOfArray = ReadInt("Введите размер массива: ");
+    int[] array = GenerateArray(sizeOfArray);
+    PrintArray(array);
 }
 
-// тип_возвращаемого_значения   _имя_функции_(принимаемые_аргументы)
-//                     7            18                  13
-int Function(int firstValue, int secondValue, int thirdValue)
+void PrintArray(int[] arrayForPrint)
 {
-    int result = (firstValue + secondValue - thirdValue) * 2 + 3 * secondValue - 10;
-    return result;
+    for (int i = 0; i < arrayForPrint.Length; i++)
+    {
+        System.Console.Write(arrayForPrint[i] + " ");
+    }
+    System.Console.WriteLine();
+}
+
+int[] GenerateArray(int size)
+{
+    int[] tempArray = new int[size];
+
+    for (int i = 0; i < tempArray.Length; i++)
+    {
+        tempArray[i] = new Random().Next(0, 10);
+    }
+
+    return tempArray;
+}
+
+int ReadInt(string msg)
+{
+    System.Console.Write(msg);
+    return Convert.ToInt32(Console.ReadLine());
 }
 
 Main();
