@@ -25,11 +25,11 @@ while (Number > 0)
 }
 
 int[] Array = new int[count];
- 
+
 for (int i = 0; i < Array.Length; i++)
 {
     Array[Array.Length - 1 - i] = Value % 10;
     Value /= 10;
 }
-// System.Console.WriteLine("[" + Array + "]"); // !Ошибка преобразования [System.Int32[]]
+// System.Console.WriteLine("[" + Array[] + "]"); // !Ошибка преобразования [System.Int32[]]
 Console.WriteLine("[" + string.Join(" ", Array) + "]");
