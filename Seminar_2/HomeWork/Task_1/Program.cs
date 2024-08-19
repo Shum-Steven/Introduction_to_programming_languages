@@ -7,7 +7,7 @@
 int[] array = { 10, 21, 14, 93, 23 };
 
 // int i = 0;
-// int counter = 0;
+int counter = 0;
 
 // while (i < array.Length)
 // {
@@ -19,12 +19,12 @@ int[] array = { 10, 21, 14, 93, 23 };
 // }
 // System.Console.WriteLine(" => " + counter);
 
-// for (int i = 0; i < array.Length; i++)
-// {
-//     if (array[i] >= 20 && array[i] <= 90)
-//         counter = counter + 1;
-// }
-// Console.WriteLine($" => {counter}");
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i] >= 20 && array[i] <= 90)
+        counter = counter + 1;
+}
+Console.WriteLine($" => {counter}");
 
 foreach (int number in array)
 {
