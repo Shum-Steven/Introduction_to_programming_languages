@@ -1,20 +1,82 @@
-﻿string[] names = { "Ангелина", "Игорь", "Анастасия" };
-int[,] numbers =
+﻿// здаайте двумерный массив. Найдите элементы,
+// у которых оба индекса чётных, и замените эти элименты на их квадраты.
+// Пример:
+// 2 3 4 3        4 3 16  3
+// 4 3 4 1   =>   4 3 4  1
+// 2 9 5 4        4 9 25 4
+
+void Main()
 {
-    { 1, 5, 23, 3 },
-    { 1, 5, 2, 34 },
-    { 5, 2, 3, 5 },
-};
+    int row = ReadInt("Введите количество строк: ");
+    int col = ReadInt("Введите количество столбцов: ");
+    int[,] matrix = GenerateMatrix(row, col, 0, 99);
+    PrintMatrix(matrix);
+    ChangeMatrix(matrix);
+    PrintMatrix(matrix);
+}
 
-numbers[0, 1] = 99;
-
-// System.Console.WriteLine(numbers.GetLength(0));
-
-for (int i = 0; i < numbers.GetLength(0); i++)
+void ChangeMatrix(int[,] matrix)
 {
-    for (int j = 0; j < numbers.GetLength(1); j++)
+    for (int i = 0; i < matrix.GetLength(0); i += 2)
     {
-        System.Console.Write(numbers[i, j] + "\t");
+        for (int j = 0; j < matrix.GetLength(1); j += 2)
+        {
+            matrix[i, j] *= matrix[i, j];
+        }
     }
     System.Console.WriteLine();
 }
+
+void PrintMatrix(int[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            System.Console.Write(matrix[i,j] + "\t");
+        }
+        System.Console.WriteLine();
+    }
+}
+
+int[,] GenerateMatrix(int rowSize, int colSize, int minValue, int maxValue)
+{
+    int[,] tempMatrix = new int[rowSize, colSize];
+    Random rand = new Random();
+
+    for (int i = 0; i < tempMatrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < tempMatrix.GetLength(1); j++)
+        {
+            tempMatrix[i, j] = rand.Next(minValue, maxValue + 1);
+        }
+    }
+    return tempMatrix;
+}
+
+int ReadInt(string msg)
+{
+    System.Console.Write(msg);
+    return Convert.ToInt32(Console.ReadLine());
+}
+Main();
+
+// void Main()
+// {
+//     int[] a = 10;
+//     F1(a);
+//     System.Console.WriteLine(a[0]);
+// }
+// void F1(int[] a)
+// {
+//     a[0] += 10;
+// }
+// Main();
+
+// // int[] a = {1, 5, 6, 2, 67};
+// // int[] b = a;
+
+// // a[0] = 999;
+
+// // System.Console.WriteLine(string.Join(", ", a));
+// // System.Console.WriteLine(string.Join(", ", b));

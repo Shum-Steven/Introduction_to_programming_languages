@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task1.csproj": {}
+    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task.csproj": {}
   },
   "projects": {
-    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task1.csproj": {
+    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task1.csproj",
-        "projectName": "Task1",
-        "projectPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task1.csproj",
+        "projectUniqueName": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task.csproj",
+        "projectName": "Task",
+        "projectPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/Task.csproj",
         "packagesPath": "/Users/stepanshumilin/.nuget/packages/",
         "outputPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_4/Task1/obj/",
         "projectStyle": "PackageReference",
