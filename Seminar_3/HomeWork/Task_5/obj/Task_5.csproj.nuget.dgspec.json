@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_2/HomeWork/Task_5/Task_5.csproj": {}
+    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_3/HomeWork/Task_5/Task_5.csproj": {}
   },
   "projects": {
-    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_2/HomeWork/Task_5/Task_5.csproj": {
+    "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_3/HomeWork/Task_5/Task_5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_2/HomeWork/Task_5/Task_5.csproj",
+        "projectUniqueName": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_3/HomeWork/Task_5/Task_5.csproj",
         "projectName": "Task_5",
-        "projectPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_2/HomeWork/Task_5/Task_5.csproj",
+        "projectPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_3/HomeWork/Task_5/Task_5.csproj",
         "packagesPath": "/Users/stepanshumilin/.nuget/packages/",
-        "outputPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_2/HomeWork/Task_5/obj/",
+        "outputPath": "/Users/stepanshumilin/Desktop/IT_GB/Знакомство с Языками Программирования/Seminar_3/HomeWork/Task_5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/stepanshumilin/.nuget/NuGet/NuGet.Config"

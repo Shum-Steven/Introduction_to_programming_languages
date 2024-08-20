@@ -9,9 +9,10 @@ System.Console.WriteLine(" Программа готова бесконечно 
 System.Console.WriteLine(" введите целое число: ");
 while (true)
 {
-    string input = Console.ReadLine();
-    // каким сопособом Принимать на ввод буквенные значения?
-    if (input == "q")
+    string? input = Console.ReadLine();
+    bool isConvertable = int.TryParse(input, out int number);
+    
+    if (!isConvertable || input == "q")
     {
         System.Console.Write(" [STOP]");
         return;
@@ -33,3 +34,6 @@ while (true)
         }
     }
 }
+
+// int.TryParse("af1234sd", out int number);
+// System.Console.writLine(number);
