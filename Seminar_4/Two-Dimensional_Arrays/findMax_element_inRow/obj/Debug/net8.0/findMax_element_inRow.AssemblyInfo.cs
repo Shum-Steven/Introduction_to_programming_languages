@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("findMax_element_inRow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f663cb6f18b2731b31ae8b46dc635472c3e0ff6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3721707f21cfa5f3c825f636998965185cb4294")]
 [assembly: System.Reflection.AssemblyProductAttribute("findMax_element_inRow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("findMax_element_inRow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

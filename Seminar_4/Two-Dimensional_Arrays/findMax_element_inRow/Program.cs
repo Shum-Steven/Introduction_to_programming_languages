@@ -11,7 +11,7 @@ void Main()
     int col = dataEntry(" введите количество Столбцов: ");
     int[,] integersArray = GenerateArray(row, col, 1, 13);
     PrintArray(integersArray);
-    System.Console.Write(" => ");
+    System.Console.WriteLine();//(" => ");
     // int[] array = FindMax(integersArray);
     // PrintMaxArray(array);
     PrintMaxArray(FindMax(integersArray));
@@ -19,7 +19,11 @@ void Main()
 
 void PrintMaxArray(int[] array)
 {
-    Console.Write("[" + string.Join(" ", array) + "]");
+    // Console.Write("[" + string.Join(" ", array) + "]");
+    for(int i = 0; i < array.Length; i++)
+    {
+        System.Console.WriteLine($" Максимальный элемент в строке {i} : {array[i]}");
+    }
 }
 
 int[] FindMax(int[,] integersArray)
