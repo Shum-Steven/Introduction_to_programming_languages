@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "findMax_element_inRow/1.0.0": {
+        "runtime": {
+          "findMax_element_inRow.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "findMax_element_inRow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
