@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "findSum_element_inCol/1.0.0": {
+        "runtime": {
+          "findSum_element_inCol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "findSum_element_inCol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
